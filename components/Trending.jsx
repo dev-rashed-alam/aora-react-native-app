@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Text, FlatList, TouchableOpacity, ImageBackground, Image } from 'react-native'
 import * as Animatable from 'react-native-animatable';
 import { icons } from '../constants'
+import { Video, ResizeMode } from 'expo-av';
 
 const zoomIn = {
     0: {
